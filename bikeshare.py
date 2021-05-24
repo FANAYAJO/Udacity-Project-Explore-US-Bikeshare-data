@@ -1,6 +1,6 @@
 """
     File name: test.py
-    Author: Fanayajo Oluwasegun Damilare
+    Author: Fanayajo Oluwasegun
     Date created: 3/16/2021
     Date last modified: 4/18/2021
     Python Version: 3.8
@@ -25,7 +25,7 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington).
-    city = input('ENTER THE CITY (city available are Chicago, New york city and Washington):  ').lower()
+    city = input('INPUT THE CITY (city available are Chicago, New york city and Washington):  ').lower()
     while city not in ['chicago', 'new york city', 'washington']:
         city = input("CHOOSE BETWEEN chicago, new york city OR washington: ").lower()
 
